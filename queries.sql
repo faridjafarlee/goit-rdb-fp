@@ -10,6 +10,8 @@ FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 
+SELECT COUNT(*) FROM infectious_cases;
+
 -- ЗАВДАННЯ 2: Нормалізація до 3НФ
 
 CREATE TABLE IF NOT EXISTS entities (
