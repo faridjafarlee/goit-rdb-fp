@@ -1,0 +1,13 @@
+# Editors and OS files
+.DS_Store
+.idea/
+.vscode/
+.sixth/
+
+# Submission archives
+*.zip
+
+# Local secrets
+.env
+.env.*
+!.env.example
